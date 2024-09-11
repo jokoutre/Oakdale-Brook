@@ -47,6 +47,18 @@ body {
     /* Ensures that overflowing content (like cropped image parts) is hidden */
 }
 
+
+.hero-image-parent {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Fixed height for desktop view */
+    overflow: hidden;
+    margin-top: 32px;
+    /* Ensures that overflowing content (like cropped image parts) is hidden */
+}
+
+
 .hero-image img {
     width: 100%;
     height: 100%;
@@ -524,6 +536,7 @@ h5 {
     text-decoration: underline;
     /* Optional: Adds underline when hovered */
 }
+
 
 
 
