@@ -1,10 +1,14 @@
 @charset "utf-8";
+
 /* Ensure the hero image covers the full width of the viewport */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-    font-family: 'Merriweather', serif; /* Apply Merriweather as the default font */
+    overflow-x: hidden;
+    /* Prevents horizontal scrolling */
+    font-family: 'Merriweather', serif;
+    /* Apply Merriweather as the default font */
 }
 
 /* Apply Oswald font and green color to navbar links using !important */
@@ -28,7 +32,8 @@ html, body {
 /* Change background color to orange when hovered */
 .navbar-nav .dropdown-menu .dropdown-item:hover {
     background-color: orange !important;
-    color: white !important; /* Optional: Change text color to white when hovered */
+    color: white !important;
+    /* Optional: Change text color to white when hovered */
 }
 
 
@@ -36,14 +41,17 @@ html, body {
 .hero-image {
     position: relative;
     width: 100%;
-    height: 400px; /* Fixed height for desktop view */
-    overflow: hidden; /* Ensures that overflowing content (like cropped image parts) is hidden */
+    height: 400px;
+    /* Fixed height for desktop view */
+    overflow: hidden;
+    /* Ensures that overflowing content (like cropped image parts) is hidden */
 }
 
 .hero-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the container and crops out excess parts */
+    object-fit: cover;
+    /* Ensures the image covers the container and crops out excess parts */
     object-position: center;
 }
 
@@ -57,51 +65,68 @@ html, body {
     padding: 20px;
     border-radius: 10px;
     color: #000000;
-    max-width: 90%; /* Adjust this if necessary */
-    top: 50%; /* Adjust as needed for better centering */
+    max-width: 90%;
+    /* Adjust this if necessary */
+    top: 50%;
+    /* Adjust as needed for better centering */
     text-decoration: none;
     display: block;
     margin-top: 39px;
-    box-sizing: border-box; /* Ensure padding is included in max-width */
+    box-sizing: border-box;
+    /* Ensure padding is included in max-width */
 }
 
 /* Styles for heading inside hero text */
 .hero-text h2 {
-    font-size: 3rem; /* Increase font size */
-    font-family: 'Freckle Face', cursive; /* Font for heading */
-    font-weight: 700; /* Bold text */
+    font-size: 3rem;
+    /* Increase font size */
+    font-family: 'Freckle Face', cursive;
+    /* Font for heading */
+    font-weight: 700;
+    /* Bold text */
     color: inherit;
     margin-right: -3px;
     margin-left: -3px;
-    margin-bottom: -3px; /* Removes default margin */
-    line-height: 1; /* Adjust line height for better spacing */
+    margin-bottom: -3px;
+    /* Removes default margin */
+    line-height: 1;
+    /* Adjust line height for better spacing */
 }
 
 /* Styles for paragraph inside hero text */
 .hero-text p {
-    font-size: 16px; /* Adjust font size as needed */
-    font-family: 'Merriweather', serif; /* Font for paragraph */
-    font-weight: 400; /* Regular weight */
-    color: inherit; /* Inherits color from .hero-text */
-    margin: 10px 0 0; /* Adjust margin as needed */
+    font-size: 16px;
+    /* Adjust font size as needed */
+    font-family: 'Merriweather', serif;
+    /* Font for paragraph */
+    font-weight: 400;
+    /* Regular weight */
+    color: inherit;
+    /* Inherits color from .hero-text */
+    margin: 10px 0 0;
+    /* Adjust margin as needed */
 }
 
 /* Hover effect */
 .hero-text:hover {
-    background-color: rgba(255, 208, 0, 1.00); /* Transparent orange on hover */
+    background-color: rgba(255, 208, 0, 1.00);
+    /* Transparent orange on hover */
 }
 
 
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 400; /* Regular weight for other h2s */
+    font-weight: 400;
+    /* Regular weight for other h2s */
     font-size: 48px;
 }
 
 .navbar-brand img {
-    width: 50%; /* Or any percentage that fits your design */
-    height: auto; /* Ensures the aspect ratio is maintained */
+    width: 50%;
+    /* Or any percentage that fits your design */
+    height: auto;
+    /* Ensures the aspect ratio is maintained */
 }
 
 .container-fluid {
@@ -122,11 +147,13 @@ p {
 
 h3 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 300; /* Regular weight for other h3s */
+    font-weight: 300;
+    /* Regular weight for other h3s */
     font-size: 30px;
 }
+
 .home-ul-brook {
-    font-family: merriweather,serif;
+    font-family: merriweather, serif;
     font-weight: 400;
     font-size: 14px;
 }
@@ -134,7 +161,8 @@ h3 {
 
 h4 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 200; /* Regular weight for other h4s */
+    font-weight: 200;
+    /* Regular weight for other h4s */
     font-size: 16px;
     text-align: left;
 }
@@ -146,6 +174,7 @@ h4 {
     margin-right: auto;
     margin-left: auto;
 }
+
 .col-xl-4 div .img-fluid {
     display: block;
 }
@@ -155,35 +184,49 @@ h4 {
 .text-center {
     text-align: center;
 }
+
 /* Container for the "What We Do" section */
 .what-we-do {
-    display: flex; /* Aligns child divs horizontally */
-    justify-content: space-around; /* Distributes space between child divs */
-    align-items: center; /* Centers items vertically within each div */
-    flex-wrap: nowrap; /* Prevents wrapping, keeps items in a single row */
-    overflow-x: auto; /* Allows horizontal scrolling if content overflows */
-    margin: 20px 0; /* Optional margin for spacing */
+    display: flex;
+    /* Aligns child divs horizontally */
+    justify-content: space-around;
+    /* Distributes space between child divs */
+    align-items: center;
+    /* Centers items vertically within each div */
+    flex-wrap: nowrap;
+    /* Prevents wrapping, keeps items in a single row */
+    overflow-x: auto;
+    /* Allows horizontal scrolling if content overflows */
+    margin: 20px 0;
+    /* Optional margin for spacing */
 }
 
 /* Styles for each child div inside "what-we-do" */
-.what-we-do > div {
-    text-align: center; /* Centers text and image inside the div */
-    margin: 10px; /* Optional margin for spacing between divs */
-    flex: 1 0 auto; /* Allows divs to shrink and grow as needed */
+.what-we-do>div {
+    text-align: center;
+    /* Centers text and image inside the div */
+    margin: 10px;
+    /* Optional margin for spacing between divs */
+    flex: 1 0 auto;
+    /* Allows divs to shrink and grow as needed */
 }
 
 /* Ensures images are responsive */
 .what-we-do img {
-    max-width: 100%; /* Limits image width to 100% of its container */
-    height: auto; /* Maintains aspect ratio of images */
+    max-width: 100%;
+    /* Limits image width to 100% of its container */
+    height: auto;
+    /* Maintains aspect ratio of images */
 }
 
 .Meet-our-team {
     color: #C40B0E;
 }
+
 .coaches-and-facilitators {
     color: #c40b0e;
 }
+
 /* Footer Styling */
 footer {
     background-color: #008000;
@@ -200,8 +243,8 @@ footer {
     align-items: flex-start;
 }
 
-.contact-info p, 
-.quick-links a, 
+.contact-info p,
+.quick-links a,
 .newsletter-signup p {
     margin: 10px 0;
     color: #ffffff;
@@ -215,14 +258,17 @@ footer {
     border-radius: 5px;
     margin-top: 10px;
     display: inline-block;
-    font-family: 'Oswald', sans-serif; /* Ensures font consistency */
+    font-family: 'Oswald', sans-serif;
+    /* Ensures font consistency */
 }
 
 /* Ensure the text color stays white on hover and no underline appears */
 .cta-button:hover {
     background-color: #ff9800;
-    color: #ffffff; /* Keeps the text color white */
-    text-decoration: none; /* No underline */
+    color: #ffffff;
+    /* Keeps the text color white */
+    text-decoration: none;
+    /* No underline */
 }
 
 
@@ -279,40 +325,54 @@ footer {
 }
 
 .col-xl-6 div .btn.btn-sm {
-    background-color: #f39c12; /* Orange background */
-    color: white; /* White text */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 20px; /* Padding for the button */
-    font-size: 14px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #f39c12;
+    /* Orange background */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding for the button */
+    font-size: 14px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
     font-family: oswald;
     margin-top: 12px;
 }
 
 
 .col-xl-6 div .btn.btn-sm:hover {
-  background-color: #e67e22; /* Darker orange on hover */
-  color: #fff; /* Keep text white on hover */
+    background-color: #e67e22;
+    /* Darker orange on hover */
+    color: #fff;
+    /* Keep text white on hover */
 }
 
 /* CTA Text Styling */
 .cta-learn-more-text {
-    color: #006800; /* Desired text color */
+    color: #006800;
+    /* Desired text color */
     font-family: 'Oswald', sans-serif;
-    cursor: pointer; /* Make it clickable */
+    cursor: pointer;
+    /* Make it clickable */
     transition: color 0.3s ease;
 }
 
 /* Hover effect */
 .cta-learn-more-text:hover {
-    color: #ff9800; /* Change text color on hover */
-    text-decoration: underline; /* Optional: underline on hover */
+    color: #ff9800;
+    /* Change text color on hover */
+    text-decoration: underline;
+    /* Optional: underline on hover */
 }
 
 /* Vision Section Styling */
 #vision-div {
-    margin-top: 50px; /* Optional: add margin to create scrollable space */
+    margin-top: 50px;
+    /* Optional: add margin to create scrollable space */
     padding-top: 19px;
     padding-right: 19px;
     padding-left: 19px;
@@ -323,20 +383,25 @@ footer {
 }
 
 .icon1-text {
-  display: flex;
-  align-items: center; /* Align icon and text vertically */
+    display: flex;
+    align-items: center;
+    /* Align icon and text vertically */
 }
 
 .icon {
-    margin-right: 18px; /* Add space between the icon and text */
-    width: 24px; /* Adjust the icon size as needed */
+    margin-right: 18px;
+    /* Add space between the icon and text */
+    width: 24px;
+    /* Adjust the icon size as needed */
     height: 24px;
 }
 
 .text {
-    font-size: 14px; /* Adjust text size */
+    font-size: 14px;
+    /* Adjust text size */
     font-family: 'Merriweather', serif;
 }
+
 .note-from-the-founder {
     border-radius: 8px;
     padding-top: 14px;
@@ -345,18 +410,22 @@ footer {
     padding-left: 14px;
 
 }
+
 .founder-note-space {
     margin-top: 4px;
     background-color: #FFD823;
     border-bottom-left-radius: 34px;
     border-top-right-radius: 34px;
 }
+
 .teamh3 {
     font-size: 23px;
 }
+
 .teamh4 {
     font-size: 20px;
 }
+
 .teamh41 {
     font-size: 14px;
 }
@@ -365,83 +434,95 @@ footer {
     font-size: 35px;
     color: #002257;
 }
+
 h5 {
     font-family: oswald;
     color: #010101;
     background-color: #FFBC03;
     border-radius: 7px;
 }
+
 .paragraph-slide {
     background-color: #FFBC03;
     border-radius: 7px;
     color: #000000;
 }
+
 .youth-at-oakdale-brook {
     margin-top: 7px;
 }
 
 
 .hero-section {
-  position: relative;
-  text-align: center;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .cta-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
-  padding: 20px;
-  border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Transparent black background */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .cta-container h2 {
-  margin: 0 0 15px 0;
+    margin: 0 0 15px 0;
 }
 
 .cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: orange;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-  background-color: darkorange;
+    background-color: darkorange;
 }
+
 .desktop-h2 {
     color: #FFFFFF;
 }
+
 .strong-mentorship {
     color: #0062DD;
 }
+
 .strong-how-it-works {
     color: #16640A;
 }
+
 .founder-note-space-solo {
     margin-top: 4px;
     background-color: #ADB8F4;
     border-bottom-left-radius: 34px;
     border-top-right-radius: 34px;
-	
+
 }
 
 
 .email-link {
-  color: inherit; /* Keeps the text color the same as the surrounding text */
-  text-decoration: none; /* Removes the underline */
+    color: inherit;
+    /* Keeps the text color the same as the surrounding text */
+    text-decoration: none;
+    /* Removes the underline */
 }
 
 .email-link:hover {
-  color: #000; /* Optional: Changes color when hovered */
-  text-decoration: underline; /* Optional: Adds underline when hovered */
+    color: #000;
+    /* Optional: Changes color when hovered */
+    text-decoration: underline;
+    /* Optional: Adds underline when hovered */
 }
 
 
@@ -475,14 +556,15 @@ h5 {
 
 /* Tablet viewport */
 @media (min-width: 401px) and (max-width: 768px) {
-.mobile-h2 {
-    font-size: 16pt;
-    color: #FFFFFF;
-}
-.hero-img-container-mobile {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    .mobile-h2 {
+        font-size: 16pt;
+        color: #FFFFFF;
+    }
+
+    .hero-img-container-mobile {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
 
 
@@ -493,10 +575,11 @@ h5 {
 
 
 /*mobile viewport*/
-@media (max-width: 400px){
+@media (max-width: 400px) {
 
     .hero-text-h2-mobile {
-        font-size: 20px; /* Slightly smaller font size for mobile */
+        font-size: 20px;
+        /* Slightly smaller font size for mobile */
     }
 
 
@@ -504,23 +587,25 @@ h5 {
 
 
     .hero-text-p-mobile {
-        font-size: 14px; /* Slightly smaller font size for mobile */
+        font-size: 14px;
+        /* Slightly smaller font size for mobile */
     }
 
 
-    .what-we-do > div {
-        flex: 1 1 100%; /* Makes each div take up the full width on mobile */
+    .what-we-do>div {
+        flex: 1 1 100%;
+        /* Makes each div take up the full width on mobile */
     }
-	
-	.mobile-h2 {
-    font-size: 16pt;
-    color: #FFFFFF;
-}
-	
-.hero-img-container-mobile {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}	
+
+    .mobile-h2 {
+        font-size: 16pt;
+        color: #FFFFFF;
+    }
+
+    .hero-img-container-mobile {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
 
 }
