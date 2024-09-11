@@ -119,11 +119,18 @@ p {
 
 
 
+
 h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300; /* Regular weight for other h3s */
     font-size: 30px;
 }
+.home-ul-brook {
+    font-family: merriweather,serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 
 h4 {
     font-family: 'Oswald', sans-serif;
@@ -418,7 +425,24 @@ h5 {
 .strong-how-it-works {
     color: #16640A;
 }
+.founder-note-space-solo {
+    margin-top: 4px;
+    background-color: #ADB8F4;
+    border-bottom-left-radius: 34px;
+    border-top-right-radius: 34px;
+	
+}
 
+
+.email-link {
+  color: inherit; /* Keeps the text color the same as the surrounding text */
+  text-decoration: none; /* Removes the underline */
+}
+
+.email-link:hover {
+  color: #000; /* Optional: Changes color when hovered */
+  text-decoration: underline; /* Optional: Adds underline when hovered */
+}
 
 
 
