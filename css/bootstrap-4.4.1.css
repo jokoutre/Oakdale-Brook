@@ -405,7 +405,7 @@ h3,
 
 h4,
 .h4 {
-  font-size: 1.5rem;
+    font-size: 16pt;
 }
 
 .row .col-xl-6 h4 {}
@@ -659,13 +659,13 @@ pre code {
 }
 
 .row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  margin-top: 19px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 46px;
 }
 
 .no-gutters {
@@ -3556,10 +3556,10 @@ fieldset:disabled a.btn {
 
 .btn-sm,
 .btn-group-sm>.btn {
-  padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  border-radius: 0.2rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
 }
 
 .btn-block {
