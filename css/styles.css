@@ -464,6 +464,32 @@ h5 {
 .zoom-effect:hover {
   transform: scale(1.1); /* Slightly enlarges the image */
 }
+
+
+
+
+.image-actions {
+  margin-top: 10px;
+}
+
+.like-btn, .share-btn {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.like-btn:hover, .share-btn:hover {
+  background-color: #218838;
+}
+
+
+
+
 /* Tablet viewport */
 @media (min-width: 401px) and (max-width: 768px) {
   .mobile-h2 {
