@@ -489,6 +489,64 @@ h5 {
 
 
 
+/* Style for the overall section */
+#join-coop {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+/* Center and contain the form content */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style for form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style for the button */
+.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-submit button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-submit button:hover {
+    background-color: #45a049;
+}
+
+
+
+
 
 /* Tablet viewport */
 @media (min-width: 401px) and (max-width: 768px) {
