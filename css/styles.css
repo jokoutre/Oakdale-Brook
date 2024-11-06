@@ -487,6 +487,16 @@ h5 {
   background-color: #218838;
 }
 
+.img-spacing {
+  margin-bottom: 20px; /* Adjust as needed for spacing between images */
+}
+
+.rounded-video-frame {
+  border-radius: 15px; /* Rounds the frame */
+  overflow: hidden; /* Ensures the video stays within the rounded frame */
+  margin-bottom: 20px; /* Adds space between videos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
 
 
 /* Style for the overall section */
